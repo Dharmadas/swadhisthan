@@ -94,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 2px;
     bottom: 0;
     left: 50%;
-    background: var(--primary-gold);
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
@@ -400,6 +399,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery-item:hover .gallery-placeholder {
     transform: scale(1.1);
+}
+
+/* Partners section */
+.partners-section {
+    padding: 5rem 0;
+    background: var(--white);
+    width: 100%;
+}
+
+.partners-card {
+    background: var(--light-gold);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.partners-card:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* Contact Section */
